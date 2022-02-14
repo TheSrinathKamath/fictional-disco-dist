@@ -1,0 +1,8 @@
+<div class="suggestions__wrapper">
+  <button
+    class="button button__clickable button__white border__black border__small shadow__black"
+    *ngFor="let suggestion of suggestions"
+  >
+    {{ suggestion.value | sentencecase }}
+  </button>
+</div>

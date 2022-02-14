@@ -1,0 +1,18 @@
+@import "../../../styles/animations.scss";
+
+input {
+  height: 100px;
+  width: 100%;
+}
+
+.error:hover {
+  animation: shake 1s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+.search-bar {
+  &__wrapper {
+    display: flex;
+    place-content: center;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,169 @@
+[
+  {
+    "$id": 1,
+    "isActive": true,
+    "relevanceScore": 0,
+    "tags": [
+      "pro",
+      "work",
+      "hire"
+    ],
+    "value": "Show me your projects",
+    "matchedResults": [
+      "projects"
+    ]
+  },
+  {
+    "$id": 1,
+    "isActive": true,
+    "relevanceScore": 0,
+    "tags": [
+      "work",
+      "case"
+    ],
+    "value": "show case studies",
+    "matchedResults": [
+      "projects"
+    ]
+  },
+  {
+    "$id": 1,
+    "isActive": true,
+    "relevanceScore": 0,
+    "tags": [
+      "call",
+      "mail",
+      "whatsapp"
+    ],
+    "value": "get in touch",
+    "matchedResults": [
+      "contact"
+    ]
+  },
+  {
+    "$id": 1,
+    "isActive": true,
+    "relevanceScore": 0,
+    "tags": [
+      "pro",
+      "work",
+      "hire"
+    ],
+    "value": "Show me your projects",
+    "matchedResults": [
+      "projects"
+    ]
+  },
+  {
+    "$id": 1,
+    "isActive": true,
+    "relevanceScore": 0,
+    "tags": [
+      "pro",
+      "work",
+      "hire"
+    ],
+    "value": "Show me your projects",
+    "matchedResults": [
+      "projects"
+    ]
+  },
+  {
+    "$id": 1,
+    "isActive": true,
+    "relevanceScore": 0,
+    "tags": [
+      "pro",
+      "work",
+      "hire"
+    ],
+    "value": "Show me your projects",
+    "matchedResults": [
+      "projects"
+    ]
+  },
+  {
+    "$id": 1,
+    "isActive": true,
+    "relevanceScore": 0,
+    "tags": [
+      "pro",
+      "work",
+      "hire"
+    ],
+    "value": "Show me your projects",
+    "matchedResults": [
+      "projects"
+    ]
+  },
+  {
+    "$id": 1,
+    "isActive": true,
+    "relevanceScore": 0,
+    "tags": [
+      "pro",
+      "work",
+      "hire"
+    ],
+    "value": "Show me your projects",
+    "matchedResults": [
+      "projects"
+    ]
+  },
+  {
+    "$id": 1,
+    "isActive": true,
+    "relevanceScore": 0,
+    "tags": [
+      "pro",
+      "work",
+      "hire"
+    ],
+    "value": "Show me your projects",
+    "matchedResults": [
+      "projects"
+    ]
+  },
+  {
+    "$id": 1,
+    "isActive": true,
+    "relevanceScore": 0,
+    "tags": [
+      "pro",
+      "work",
+      "hire"
+    ],
+    "value": "Show me your projects",
+    "matchedResults": [
+      "projects"
+    ]
+  },
+  {
+    "$id": 1,
+    "isActive": true,
+    "relevanceScore": 0,
+    "tags": [
+      "pro",
+      "work",
+      "hire"
+    ],
+    "value": "Show me your projects",
+    "matchedResults": [
+      "projects"
+    ]
+  },
+  {
+    "$id": 1,
+    "isActive": true,
+    "relevanceScore": 0,
+    "tags": [
+      "pro",
+      "work",
+      "hire"
+    ],
+    "value": "Show me your projects",
+    "matchedResults": [
+      "projects"
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+<div class="search-bar__wrapper">
+  <label for="main-search-bar">{{ label | uppercase }}</label>
+  <input
+    id="main-search-bar"
+    type="text"
+    class="border__small border__black shadow__black"
+    [placeholder]="placeholder"
+    [formControl]="formControl"
+    autocomplete="off"
+    autofocus
+  />
+  <pre *ngIf="errorMessage" class="error">{{ errorMessage }}</pre>
+</div>

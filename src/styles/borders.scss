@@ -1,0 +1,10 @@
+.border {
+  &__small {
+    border-radius: 8px;
+  }
+}
+.border {
+  &__black {
+    border: 1px solid #000;
+  }
+}

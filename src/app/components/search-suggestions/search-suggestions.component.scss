@@ -1,0 +1,14 @@
+@import "../../../styles/animations.scss";
+
+.suggestions {
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-rows: 1fr;
+    gap: 0.5em;
+    margin-top: 1rem;
+    padding: 20px 0;
+    width: 100%;
+    overflow-x: auto;
+  }
+}

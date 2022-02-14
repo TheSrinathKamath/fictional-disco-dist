@@ -1,0 +1,28 @@
+@import "./colors.scss";
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--placeholder-color);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--placeholder-color);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: var(--placeholder-color);
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+input {
+  padding: 10px 20px;
+  font-size: 48px;
+  font-family: "Oli grotesk";
+}

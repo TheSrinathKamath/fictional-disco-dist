@@ -1,0 +1,32 @@
+<div class="container-fluid">
+  <div class="row assistant__header">
+    <button
+      type="button"
+      class="assistant-close__button assistant-close__button--toggle-nav"
+      (click)="onNoClick()"
+    >
+      <div class="close-btn__bar"></div>
+      <div class="close-btn__bar"></div>
+      <div class="close-btn__bar"></div>
+    </button>
+  </div>
+  <div class="row assistant__wrapper">
+    <div class="col-4">
+      <img
+        class="assistant__mouth"
+        src="assets/images/mouth.gif"
+        alt="Assistant"
+      />
+    </div>
+    <div class="col-8" style="padding-right: 130px">
+      <h1 class="secondary-font">I'm not Jarvis but yeah, I can help!</h1>
+      <search-bar
+        [placeholder]="'Ask & you shall receive'"
+        [formControl]="searchFormControl"
+      ></search-bar>
+      <search-suggestions
+        [suggestions]="searchSuggestions"
+      ></search-suggestions>
+    </div>
+  </div>
+</div>

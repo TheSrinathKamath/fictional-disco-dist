@@ -1,0 +1,60 @@
+@import "./colors.scss";
+
+@font-face {
+  font-family: "DM sans";
+  src: url("../assets/fonts/dm-sans/DMSans-Regular.woff2");
+}
+@font-face {
+  font-family: "Ivar Text";
+  src: url("../assets/fonts/ivar-text/IvarText-Bold.woff2");
+}
+@font-face {
+  font-family: "Oli Grotesk";
+  src: url("../assets/fonts/oli-grotesk/OliGroteskL-Bold.woff2");
+}
+
+:root {
+  --font-text: "DM sans", sans-serif;
+  --font-heading: "Ivar Text", "Georgia", serif;
+  --font-subheading: "Oli Grotesk", "Oil Grotesk", sans-serif;
+  --color-text: #212121;
+  --color-heading: #000;
+  --transition: 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+  --opacity: 0.7;
+  --border-radius: 0;
+  --min-height: 100px;
+}
+
+:root {
+  --lg-text: 48px;
+  --text: 16px;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  background: var(--pale-green);
+}
+
+::selection {
+  background: var(--pale-green);
+}
+
+h1 {
+  font-size: var(--lg-text);
+}
+
+.text {
+  &__bold {
+    font-weight: bold;
+  }
+}
+
+.primary-font {
+  font-family: var(--font-heading);
+}
+.secondary-font {
+  font-family: var(--font-subheading);
+}
+.tertiary-font {
+  font-family: var(--font-text);
+}
